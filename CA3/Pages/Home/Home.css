@@ -37,13 +37,21 @@ img.half-page {
 }
 
 #visit {
-    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#location::after {
-    content: 'Testing';
+.map {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5%;
 }
- #golf::after, #history::after, #community::after {
-    content: url(../../Images/Instagram-White.png); /* URL to your Instagram logo image */
-    zoom: 0.007;
+
+.map > img {
+    width: 100%;
+}
+
+.map > h3 {
+    text-align: center;
+    margin: 0;
 }
