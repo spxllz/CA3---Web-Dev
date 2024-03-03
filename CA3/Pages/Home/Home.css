@@ -1,0 +1,49 @@
+@font-face {
+    font-family: NeueHaasDisplayThin;
+    src: url(../../Fonts/NeueHaasDisplayThin.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayLight;
+    src: url(../../Fonts/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayRoman;
+    src: url(../../Fonts/NeueHaasDisplayRoman.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayMedium;
+    src: url(../../Fonts/NeueHaasDisplayMedium.ttf);
+}
+
+img.half-page {
+    width: 50%;
+}
+
+.text h3 {
+    margin: 0;
+    padding: 3% 0;   
+}
+
+.visit-quote {
+    color: white;
+    padding: 5%;
+}
+
+.visit-quote hr {
+    border: 1px solid white;
+}
+
+#visit {
+    height: auto;
+}
+
+#location::after {
+    content: 'Testing';
+}
+ #golf::after, #history::after, #community::after {
+    content: url(../../Images/Instagram-White.png); /* URL to your Instagram logo image */
+    zoom: 0.007;
+}

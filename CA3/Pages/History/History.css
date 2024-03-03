@@ -1,0 +1,19 @@
+@font-face {
+    font-family: NeueHaasDisplayThin;
+    src: url(../../Fonts/NeueHaasDisplayThin.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayLight;
+    src: url(../../Fonts/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayRoman;
+    src: url(../../Fonts/NeueHaasDisplayRoman.ttf);
+}
+
+@font-face {
+    font-family: NeueHaasDisplayMedium;
+    src: url(../../Fonts/NeueHaasDisplayMedium.ttf);
+}
