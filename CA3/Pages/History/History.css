@@ -17,3 +17,11 @@
     font-family: NeueHaasDisplayMedium;
     src: url(../../Fonts/NeueHaasDisplayMedium.ttf);
 }
+
+.quote {
+    float: right;
+}
+
+.quote > h2 {
+    text-align: right;
+}

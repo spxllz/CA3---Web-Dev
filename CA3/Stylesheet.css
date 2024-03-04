@@ -23,59 +23,66 @@ body {
     margin: 0;
 }
 
-nav {
-    display: flex;
-    justify-content: center; /* Align items horizontally in the center */
-    padding: 12%;
+/* Custom CSS for transparent navbar */
+.navbar-custom {
+    background-color: transparent !important; /* Make the background transparent */
+    position: absolute; /* Position the navbar absolutely */
+    padding: 12%; /* Move the navbar 12% down */
+    width: 100%; /* Ensure the navbar spans the full width */
+    color: white !important;
+    font-size: 18px;
+    font-family: NeueHaasDisplayRoman;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
-nav ul {
-    list-style-type: none; /* Remove default list styles */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Display the list items as flex items */
-    align-items: center; /* Align items vertically in the center */
+.navbar-nav .nav-link, .navbar-brand {
+    color: white !important;
 }
 
-nav ul li.border-item {
-    margin-right: 10px; /* Adjust margin as needed */
-    padding: 0% 1%;
-    white-space: nowrap;
-    color: black;
-    font-family: Arial;
-    position: relative; /* Add relative positioning */
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+    border: 2px solid white;
 }
 
-nav ul li.border-item::after {
+.navbar-nav .nav-item {
+    position: relative; /* Make the nav items relative for positioning pseudo-elements */
+}
+
+.navbar-nav .nav-item.active::after,
+.navbar-nav .nav-item:hover::after {
+    width: 100%; /* Set width to 100% on hover or for the currently active item */
+}
+
+.navbar-nav .nav-item::after {
     content: ''; /* Create pseudo-element */
     position: absolute; /* Position the pseudo-element */
     bottom: 0; /* Align the pseudo-element to the bottom */
     right: 0; /* Start the pseudo-element from the right */
     width: 0; /* Initial width of the pseudo-element */
     height: 1px; /* Height of the pseudo-element (border) */
-    background-color: rgb(49, 48, 49); /* Color of the border */
+    background-color: white; /* Color of the border */
     transition: width 0.3s; /* Add transition for smooth effect */
 }
 
-nav ul li.border-item#current::after {
-    width: 100%; /* Initial width of the pseudo-element */
-}
-
-nav ul li.border-item:not(#current):hover::after {
+.navbar-nav .nav-item:not(.active):hover::after {
     width: 100%; /* Increase width to 100% on hover */
     right: auto; /* Reset right positioning */
     left: 0; /* Start the pseudo-element from the left */
 }
 
-nav ul li.border-item:not(#current):not(:hover)::after {
+.navbar-nav .nav-item:not(.active):not(:hover)::after {
     width: 0; /* Reset width to 0 when not hovered */
     right: 0; /* Start the pseudo-element from the right */
     left: auto; /* Reset left positioning */
 }
 
-nav > ul > li a{
-    color: rgb(49, 48, 49);
-    text-decoration: none;
+.navbar-nav .nav-item {
+    margin-right: 2%; /* Add padding between elements */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove padding from the last element */
 }
 
 nav img {
@@ -162,8 +169,11 @@ footer a {
 }
 
 .quote {
-    padding: 0% 10% 10%;
-    width: 33.3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
     color: white;
 }
 
