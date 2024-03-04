@@ -177,13 +177,21 @@ footer a {
     color: white;
 }
 
-.text {
-    padding: 5%;
+.col-lg-6, .col-lg-12 {
+    display: flex;
 }
 
-.flex-div {
+.col-lg-6 .card, .col-lg-6 img, .col-lg-12 .card {
+    flex-grow: 1;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+}
+
+.card-body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .scroll {

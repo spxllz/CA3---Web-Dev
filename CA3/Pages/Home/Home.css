@@ -18,15 +18,6 @@
     src: url(../../Fonts/NeueHaasDisplayMedium.ttf);
 }
 
-img.half-page {
-    width: 50%;
-}
-
-.text h3 {
-    margin: 0;
-    padding: 3% 0;   
-}
-
 .visit-quote {
     color: white;
     padding: 5%;
@@ -34,21 +25,6 @@ img.half-page {
 
 .visit-quote hr {
     border: 1px solid white;
-}
-
-.map {
-    width: 50%;
-    margin: 0 auto;
-    padding: 5%;
-}
-
-.map > img {
-    width: 100%;
-}
-
-.map > h3 {
-    text-align: center;
-    margin: 0;
 }
 
 #location {
