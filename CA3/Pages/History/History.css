@@ -18,3 +18,22 @@
     src: url(../../Fonts/NeueHaasDisplayMedium.ttf);
 }
 
+#prehistory {
+    background-color: rgb(75, 160, 174);
+}
+
+#medieval {
+ background-color: rgb(223, 95, 84);
+}
+
+#post-medieval{
+    background-color: rgb(198, 176, 121);
+}
+
+#whaling {
+    background-color: rgb(142, 162, 144);
+}
+
+#modern {
+    background-color: rgb(234, 222, 202);
+}

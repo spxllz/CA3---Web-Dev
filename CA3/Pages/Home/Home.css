@@ -36,11 +36,6 @@ img.half-page {
     border: 1px solid white;
 }
 
-#visit {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .map {
     width: 50%;
     margin: 0 auto;
@@ -54,4 +49,29 @@ img.half-page {
 .map > h3 {
     text-align: center;
     margin: 0;
+}
+
+#location {
+    background-color: rgb(252, 191, 154);
+}
+
+#outdoor {
+    background-color: rgb(193, 196, 90);
+}
+
+#landmarks {
+    background-color: rgb(197, 160, 117);
+}
+
+#community {
+    background-color: rgb(223, 217, 207);
+}
+
+#map {
+    background-color: rgb(238, 240, 214)
+}
+
+#visit {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
