@@ -27,6 +27,22 @@
     border: 1px solid white;
 }
 
+.col-lg-6 .card, .col-lg-6 img {
+    flex-grow: 1;
+    height: auto;
+    border: solid rgb(49, 48, 49) 0px;
+    border-radius: 0px;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-6:last-child {
+    padding-left: 0;
+}
+
 #location {
     background-color: rgb(252, 191, 154);
 }

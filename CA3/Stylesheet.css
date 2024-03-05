@@ -181,13 +181,6 @@ footer a {
     display: flex;
 }
 
-.col-lg-6 .card, .col-lg-6 img, .col-lg-12 .card {
-    flex-grow: 1;
-    height: auto;
-    border: 0;
-    border-radius: 0;
-}
-
 .card-body {
     display: flex;
     flex-direction: column;
