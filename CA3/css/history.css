@@ -1,0 +1,30 @@
+.col-lg-12 {
+    padding-top: 1%;
+}
+
+.col-lg-12 .card {
+    flex-grow: 1;
+    height: auto;
+    border: solid rgb(49, 48, 49) 2px;
+    border-radius: 25px;
+}
+
+#prehistory {
+    background-color: rgb(75, 160, 174);
+}
+
+#medieval {
+ background-color: rgb(223, 95, 84);
+}
+
+#post-medieval{
+    background-color: rgb(198, 176, 121);
+}
+
+#whaling {
+    background-color: rgb(142, 162, 144);
+}
+
+#modern {
+    background-color: rgb(234, 222, 202);
+}
