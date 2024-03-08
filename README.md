@@ -30,5 +30,5 @@ I have structured the files based on my previous knowledge of HTML practises, ea
 - JavaScript -
 I have made use of relatively simple JavaScript in this assignment, one to set the visibility of the scrollwheel, which is visible when the user is at the top of the screen, and another to rotate the dropdown icon.
 
-- icons -
+- Icons -
 For icons, I made use of fontawesome's icon kit which reduces the amount of PNG images needed to be stored locally and ensures consistency in icon thickness and styling.  These icons are easy to implement and use.
