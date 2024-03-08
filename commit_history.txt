@@ -1,0 +1,12 @@
+b82cd2b - Fraser McCarter, 7 minutes ago : Create README.md
+658e329 - Fraser McCarter, 10 minutes ago : Adjusted Mobile Nav, Adjusted Footer
+215608f - Fraser McCarter, 16 hours ago : Fixed mobile view + tied up loose ends
+7b62192 - Fraser McCarter, 2 days ago : Restructured Files + Added Footer
+a331bdf - Fraser McCarter, 3 days ago : Adjusted layout on all pages + coloured Visit page
+d03da20 - Fraser McCarter, 4 days ago : Changed Homepage and history page to use bootstrap
+06aa8db - Fraser McCarter, 4 days ago : Added 7:5 Bootstrap to Visit
+1d931ad - Fraser McCarter, 4 days ago : Adjusted div colours on homepage and history page
+9a6e22b - Fraser McCarter, 4 days ago : Fixed Quote Positioning + Visit Background
+3537cc2 - Fraser McCarter, 4 days ago : Altered nav to bootstrap
+5bc6134 - Fraser McCarter, 5 days ago : Added Map + History
+d5f2076 - Fraser McCarter, 5 days ago : Initial hierarchy/folder structure and home page
