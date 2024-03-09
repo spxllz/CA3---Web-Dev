@@ -1,4 +1,6 @@
-10212fa - Fraser McCarter, 65 seconds ago : Update README.md
+6c546d4 - Fraser McCarter, 34 seconds ago : Fixed alt for logo img
+406395c - Fraser McCarter, 7 minutes ago : Update commit_history.txt
+10212fa - Fraser McCarter, 9 minutes ago : Update README.md
 3a1a54a - Fraser McCarter, 19 hours ago : Update README.md
 1de0f01 - Fraser McCarter, 19 hours ago : Update README.md
 ef1cfce - Fraser McCarter, 20 hours ago : Update README.md
